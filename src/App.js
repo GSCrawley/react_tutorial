@@ -2,8 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import PageHeader from './PageHeader'
+import PageFooter from './PageFooter'
 import PageContent from './PageContent'
-
+import Project from './Project'
 
 
 
@@ -11,7 +12,10 @@ function App() {
   return (
     <div className="App">
       <PageHeader />
+      <PageFooter />
       <PageContent />
+      <Project />
+
       </div>
       );
     }
