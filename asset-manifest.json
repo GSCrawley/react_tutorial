@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_tutorial/static/css/main.8b35321e.chunk.css",
+    "main.js": "/react_tutorial/static/js/main.7b528737.chunk.js",
+    "main.js.map": "/react_tutorial/static/js/main.7b528737.chunk.js.map",
+    "runtime-main.js": "/react_tutorial/static/js/runtime-main.ed4d340a.js",
+    "runtime-main.js.map": "/react_tutorial/static/js/runtime-main.ed4d340a.js.map",
+    "static/js/2.2db2dc2a.chunk.js": "/react_tutorial/static/js/2.2db2dc2a.chunk.js",
+    "static/js/2.2db2dc2a.chunk.js.map": "/react_tutorial/static/js/2.2db2dc2a.chunk.js.map",
+    "index.html": "/react_tutorial/index.html",
+    "precache-manifest.308244f51873f3c738744811e6d3c635.js": "/react_tutorial/precache-manifest.308244f51873f3c738744811e6d3c635.js",
+    "service-worker.js": "/react_tutorial/service-worker.js",
+    "static/css/main.8b35321e.chunk.css.map": "/react_tutorial/static/css/main.8b35321e.chunk.css.map",
+    "static/js/2.2db2dc2a.chunk.js.LICENSE.txt": "/react_tutorial/static/js/2.2db2dc2a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react_tutorial/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed4d340a.js",
+    "static/js/2.2db2dc2a.chunk.js",
+    "static/css/main.8b35321e.chunk.css",
+    "static/js/main.7b528737.chunk.js"
+  ]
+}
