@@ -5,16 +5,24 @@ import './PageContent.css'
 
 
 function PageContent() {
- return (
- <div className="PageContent">
- <Project title="Cutest Puppy" image="/images/cute_dog.jpg" link="/puppies" />
- <Project title="Ganesha" image="/images/ganesha.png" link="/hindu_gods" />
- <Project title="Fender Telecaster" image="/images/Fender.jpg" link="/guitars" />
- <Project title="Gibson Les Paul" image="/images/Gibson.jpg" link="/guitars" />
- <Project title="Yours Truly" image="/images/shoze.jpg" link="/me" />
- <Project title="Sydney Opera House" image="/images/sydney.jpeg" link="/landmarks" />
- </div>
- )
+    return (
+    <div className="projects">
+    {
+      // place is the element in the array
+      // i is the index of the element
+      data.map((place, i) => { // data takes a function as a parameter
+        return ( // Return a component
+        <Project 
+          key={`${i}-${place.image}`} 
+          title={place.title} 
+          image={place.image} 
+          link={`${i}`} 
+        />
+      )
+    })
+   }
+   </div>
+)
 }
 
 export default PageContent

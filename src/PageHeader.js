@@ -6,7 +6,7 @@ function PageHeader() {
     return (
     <div className="PageHeader">
     <header>
-    <h1>Totally Random Stuff</h1>
+    <h1>San Francisco FiDi Highlights</h1>
     </header>
     </div>
     )

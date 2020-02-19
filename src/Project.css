@@ -1,8 +1,15 @@
-.ProjectImage {
+.projects {
     width: 320px;
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
+    /* grid-template-rows: auto; */
+    /* grid-gap: auto; */
     padding-top: 2em;
+    padding-left: 2.5em;
+    padding-right: 3em;
+    /* background-color: rgb(245, 142, 17); */
    }
+
+.ProjectLink {
+    padding-bottom: 1em;
+}

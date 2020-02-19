@@ -43,6 +43,6 @@ const data = [
       title: 'transamerica redwood park',
       image: '/images/transamerica-redwood-park.jpg',
       desc: 'massive redwood park, with a fountain',
-    },
+    }
   ]
   export default data
